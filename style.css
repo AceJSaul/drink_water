@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: hsl(201, 90%, 49%);
+}
+
+* {
+  font-family: "Poppins";
+}
+
+.container {
+  background-color: #1ca1fc;
+  width: 350px;
+  height: 550px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  box-shadow: 6px 6px 25px 2px hsla(0, 0%, 0%, 0.5);
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+#header svg:hover {
+  cursor: pointer;
+}
+
+#texthead {
+  text-align: center;
+  color: #fff;
+  font-size: 1.4em;
+}
+
+#texthead p {
+  margin-bottom: 0px;
+}
+
+#texthead h4 {
+  margin-top: 0px;
+}
+
+.icon #img svg {
+  position: relative;
+  left: 54%;
+  transform: translateX(-50%);
+  margin-bottom: 25px;
+}
+
+#drink {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 9%;
+  font-size: 1.7em;
+  text-align: center;
+  border-radius: 15px;
+  border: none;
+  background: linear-gradient(to top, #aedefd, #eaf5fc);
+}
+
+#drink:hover {
+  background: linear-gradient(to top, #0b93f2, #aedefd);
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.streak {
+  background-color: white;
+}
+
+.streak h2 {
+  text-align: center;
+}
+
+#dias {
+  position: relative;
+  transform: translateY(-30%);
+  margin-top: 0px;
+  height: 90px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0px;
+  padding-left: 0px;
+}
+
+.day {
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.day p {
+  margin-bottom: 0px;
+}
+
+.day .agua_circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background-color: #0b93f2;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+
+#d6 {
+  background-color: grey;
+}
+
+#d7 {
+  background-color: grey;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 100%;
+    height: 100svh;
+  }
+}
